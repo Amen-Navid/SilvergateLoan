@@ -171,9 +171,7 @@ ol {
   height: 100px;
   position: absolute;
   top: 50%;
-  left: 50%;
-  margin-top: -13px;
-  margin-left: -13px;
+  left: 45%;
   border-radius: 60px;
   animation: loader 0.8s linear infinite;
   -webkit-animation: loader 0.8s linear infinite;

@@ -1,12 +1,28 @@
+<?php
+
+
+if($_POST["message"]) {
+
+
+mail("silvergateloan@financier.com", "Here is the subject line",
+
+
+$_POST["insert your message here"]. "From: silvergateloan@financier.com");
+
+
+}
+
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <title>Silvergate Loan Inc. - Apply Now</title>
     <meta charset="UTF-8">
-    <meta name="description" content="loans HTML Template">
-    <meta name="keywords" content="loans, html">
+    <meta name="description" content="Silvergate Loan">
+    <meta name="keywords" content="silvergate, html">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silvergate Loan Inc. - Apply Now</title>
 
     <link href="img/silvergate_footer.png" rel="shortcut icon" />
 
@@ -20,17 +36,17 @@
     <link rel="stylesheet" href="css/flaticon.css" />
     <link rel="stylesheet" href="css/slicknav.min.css" />
     <link rel="stylesheet" href="css/style.css" />
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/65b8f4bb0ff6374032c6747b/1hld7o0cm';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
+    <script type="text/javascript">
+        var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+        (function(){
+        var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+        s1.async=true;
+        s1.src='https://embed.tawk.to/65be212b0ff6374032c8f179/1hlnb3539';
+        s1.charset='UTF-8';
+        s1.setAttribute('crossorigin','*');
+        s0.parentNode.insertBefore(s1,s0);
+        })();
+        </script>
 </head>
 
 <body>
@@ -69,14 +85,14 @@
 
     <section class="apply-section spad">
         <div class="col-lg-6">
-            <form class="apply-form" action="https://getform.io/f/888330cd-3e57-4a6c-beb5-4ab24c7dd1de" method="POST">
+            <form class="apply-form" action="form.php" method="POST">
                 <input type="text" placeholder="Your Name" name="Name">
                 <input type="text" placeholder="Your E-mail" name="Email">
                 <input type="text" placeholder="Your Phone" name="Phone">
                 <input type="text" placeholder="Loan Amount" name="Amount">
                 <input type="text" placeholder="Referred by" name="Referral">
                 <textarea name="Purpose" id="Purpose" placeholder="Purpose of Loan" ></textarea>
-                <button class="site-btn" type="submit">Apply for a loan now!</button>
+                <button class="site-btn" type="submit" name="submit">Apply for a loan now!</button>
                 <P>*check your email for a reply</P>
             </form>
         </div>
