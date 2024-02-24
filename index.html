@@ -27,6 +27,14 @@
 		s1.setAttribute('crossorigin','*');
 		s0.parentNode.insertBefore(s1,s0);
 		})();
+		setTimeout(function () {
+    makemebtn()
+}, 5000);
+
+function makemebtn() {
+    const tawkbtn = $('iframe').eq(1).contents().find('.tawk-button')
+    tawkbtn.css('background-color', '#6514a7')
+};
 		</script>
 </head>
 <body>
