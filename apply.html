@@ -59,20 +59,21 @@
         </div>
     </section>
 
-    <section class="apply-section spad">
-        <div class="col-lg-6">
-            <form class="apply-form" method="POST" data-netlify="true" name="applyForm">
-                <input type="text" placeholder="Your Name" name="Name">
-                <input type="text" placeholder="Your E-mail" name="Email">
-                <input type="text" placeholder="Your Phone" name="Phone">
-                <input type="text" placeholder="Loan Amount" name="Amount">
-                <input type="text" placeholder="Referred by" name="Referral">
-                <textarea name="Purpose" id="Purpose" placeholder="Purpose of Loan" ></textarea>
-                <button class="site-btn" type="submit" name="submit">Apply for a loan now!</button>
-                <P>*check your email for a reply</P>
-            </form>
-        </div>
-    </section>
+   <section class="apply-section spad">
+    <div class="col-lg-6">
+        <form class="apply-form" method="POST" data-netlify="true" name="applyForm">
+            <input type="text" placeholder="Your Name" name="Name" required>
+            <input type="email" placeholder="Your E-mail" name="Email" required>
+            <input type="tel" placeholder="Your Phone" name="Phone" required>
+            <input type="text" placeholder="Loan Amount" name="Amount" required>
+            <input type="text" placeholder="Referred by" name="Referral" required>
+            <textarea name="Purpose" id="Purpose" placeholder="Purpose of Loan" required></textarea>
+            <button class="site-btn" type="submit" name="submit">Apply for a loan now!</button>
+            <p>*check your email for a reply</p>
+        </form>
+    </div>
+</section>
+
 
     <footer class="footer-section">
         <div class="container">
