@@ -83,22 +83,23 @@
 					</div>
 				</div>
 				<div class="col-lg-8">
-					<form class="contact-form"  method="POST" data-netlify="true" name="contact">
-						<div class="row">
-							<div class="col-md-6">
-								<input type="text" placeholder="Your Name" name="name">
-							</div>
-							<div class="col-md-6">
-								<input type="text" placeholder="Your E-mail" name="email">
-							</div>
-							<div class="col-md-12">
-								<input type="text" placeholder="Subject" name="subject">
-								<textarea placeholder="Your Message" name="message"></textarea>
-								<button type="submit" class="site-btn">send message</button>
-								<P>*check your email for a reply</P>
-							</div>
-						</div>
-					</form>
+					<form class="contact-form" method="POST" data-netlify="true" name="contact">
+    <div class="row">
+        <div class="col-md-6">
+            <input type="text" placeholder="Your Name" name="name" required>
+        </div>
+        <div class="col-md-6">
+            <input type="email" placeholder="Your E-mail" name="email" required>
+        </div>
+        <div class="col-md-12">
+            <input type="text" placeholder="Subject" name="subject" required>
+            <textarea placeholder="Your Message" name="message" required></textarea>
+            <button type="submit" class="site-btn">Send message</button>
+            <p>*check your email for a reply</p>
+        </div>
+    </div>
+</form>
+
 				</div>
 			</div>
 			<section class="services-section">
