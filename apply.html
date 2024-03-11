@@ -1,19 +1,4 @@
-<?php
 
-
-if($_POST["message"]) {
-
-
-mail("silvergateloan@financier.com", "Here is the subject line",
-
-
-$_POST["insert your message here"]. "From: silvergateloan@financier.com");
-
-
-}
-
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -76,7 +61,7 @@ $_POST["insert your message here"]. "From: silvergateloan@financier.com");
 
     <section class="apply-section spad">
         <div class="col-lg-6">
-            <form class="apply-form" action="form.php" method="POST">
+            <form class="apply-form" method="POST" data-netlify="true" name="applyForm">
                 <input type="text" placeholder="Your Name" name="Name">
                 <input type="text" placeholder="Your E-mail" name="Email">
                 <input type="text" placeholder="Your Phone" name="Phone">
