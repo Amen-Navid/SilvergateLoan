@@ -9,7 +9,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $body = "Name: $name\nEmail: $email\nMessage: $message";
     
     if (mail($to, $subject, $body)) {
-        echo "Thank you for your message. We will get back to you soon!";
+        echo "Thank you for your message. We will get back to you soon! Pease check your email for our reply";
         header("refresh:3;url=index.html");
         exit;
     } else {
