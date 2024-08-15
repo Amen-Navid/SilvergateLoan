@@ -809,6 +809,10 @@ ol {
 }
 
 @media (min-width: 1200px) {
+  .main-menu li a:hover,
+.main-menu li a.active {
+  color: #85bf4b;
+}
   .container {
     max-width: 1176px;
   }
@@ -821,6 +825,10 @@ ol {
   .main-menu li a {
     margin-right: 30px;
   }
+  .main-menu li a:hover,
+.main-menu li a.active {
+  color: #85bf4b;
+}
   .header-right .hr-btn.hr-btn-2 {
     min-width: 210px;
   }
@@ -837,6 +845,10 @@ ol {
   .main-menu li a {
     margin-right: 15px;
   }
+  .main-menu li a:hover,
+.main-menu li a.active {
+  color: #85bf4b;
+}
   .header-right .hr-btn.hr-btn-2 {
     min-width: auto;
   }
@@ -857,6 +869,10 @@ ol {
     margin-right: 0;
     margin-left: 30px;
   }
+  .main-menu li a:hover,
+.main-menu li a.active {
+  color: #85bf4b;
+}
   .header-right {
     display: none;
   }
@@ -888,6 +904,10 @@ ol {
   .main-menu {
     display: none;
   }
+  .main-menu li a:hover,
+.main-menu li a.active {
+  color: #85bf4b;
+}
   .slicknav_menu {
     padding: 0;
     display: block;
@@ -941,6 +961,10 @@ ol {
 }
 
 @media only screen and (max-width: 479px) {
+  .main-menu li a:hover,
+.main-menu li a.active {
+  color: #85bf4b;
+}
   .header-section {
     padding: 0 15px;
     position: relative;
@@ -972,6 +996,10 @@ ol {
 }
 
 @media only screen and (max-width: 372px) {
+  .main-menu li a:hover,
+.main-menu li a.active {
+  color: #85bf4b;
+}
   .site-logo img {
     width: 150px;
   }
